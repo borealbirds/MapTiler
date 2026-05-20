@@ -1,0 +1,4 @@
+fastapi
+titiler.core
+rasterio
+uvicorn
