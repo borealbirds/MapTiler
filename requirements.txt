@@ -1,3 +1,4 @@
+shiny
 fastapi
 titiler.core
 rasterio
