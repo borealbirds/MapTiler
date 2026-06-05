@@ -8,6 +8,11 @@ import re
 # initialize FastAPI app
 app = FastAPI()
 
+# health status ckeck
+@app.get("/health")
+def health():
+    return {"status": "ok"}
+
 class CleanUrlMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next):
         path = request.url.path
