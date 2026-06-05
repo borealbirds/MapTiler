@@ -45,5 +45,9 @@ def server(input, output, session):
 
 shiny_app = App(app_ui, server)
 
+@app.get("/")
+def root():
+    return {"status": "ok"}
+
 # mount shiny App to the root of FastAPI
-app.mount("/", shiny_app)
+app.mount("/app", shiny_app)
