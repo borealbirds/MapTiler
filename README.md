@@ -41,7 +41,7 @@ uvicorn app:app --host 127.0.0.1 --port 8000 --reload
 
 Open your browser and test the splitting pathways:
 
-* **Shiny UI Fallback:** [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+* **Shiny UI Fallback:** [http://127.0.0.1:8000/app](http://127.0.0.1:8000/app)
 (Displays a minimal service confirmation landing page)
 * **Live Clean Tile Generation:** Copy and paste the link below to verify that the intercept middleware correctly maps and colors a tile sample over network streams:
 
