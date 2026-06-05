@@ -47,6 +47,7 @@ Open your browser and test the splitting pathways:
 
 [http://127.0.0.1:8000/cog/tiles/4/2/3.png?url=http%3A%2F%2F206.12.92.143%2Fdata%2Fdashboard%2FALFL%2FAlaska%2FALFL_Alaska_2020.tif&colormap_name=ylgn](http://127.0.0.1:8000/cog/tiles/4/2/3.png?url=http%3A%2F%2F206.12.92.143%2Fdata%2Fdashboard%2FALFL%2FAlaska%2FALFL_Alaska_2020.tif&colormap_name=ylgn)
 
+* **App Health Status Check** [http://127.0.0.1:8000/health](http://127.0.0.1:8000/health)
 
 Open a second terminal window, and run the following bash script on a different port (e.g., 8500) so it doesn't conflict with the tiler:
 ```bash
