@@ -57,10 +57,10 @@ shiny run --port 8500 test.py
 ## 🌐 Deploying to Posit Connect Cloud
 Because this repo structures the application around a primary `shiny_app` object definition alongside standard requirements, you can deploy it directly via Posit Connect Cloud.
 
-1. Push this directory to a repository on **GitHub**.
-2. Log into your **Posit Connect Cloud** account dashboard.
+1. Fork/Clone the repository on **GitHub**.
+2. Log into your **[Posit Connect Cloud](https://connect.posit.cloud)** account dashboard.
 3. Click **Publish** -> **From GitHub**
-4. Choose **Shiny** as your deployment framework and select your repository. 
+4. Choose **Shiny** as your deployment framework and select this repository. 
 
 The platform will automatically provision the environment, download your dependencies, and expose a live, permanent public URL.
 
