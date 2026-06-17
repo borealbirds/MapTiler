@@ -88,7 +88,3 @@ def get_map_widget(cog_http_url):
     return m
 
 ```
-
-## 📄 License
-
-This repository is open-source and available under the MIT License.
