@@ -77,7 +77,7 @@ def get_map_widget(cog_http_url):
     encoded_cog = requests.utils.quote(cog_http_url, safe="")
     
     # Replace with your actual live Posit Connect Cloud app URL
-    tiler_base_url = "[https://connect.posit.cloud/user/content/12345](https://connect.posit.cloud/user/content/12345)"
+    tiler_base_url = "POSIT_CONNECT_CLOUD_APP_LINK"
     
     # Target our clean short URL layout handled by the custom middleware
     tile_string = f"{tiler_base_url}/cog/tiles/{{z}}/{{x}}/{{y}}.png?url={encoded_cog}&colormap_name=ylgn"
