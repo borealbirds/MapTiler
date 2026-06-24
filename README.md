@@ -88,3 +88,9 @@ def get_map_widget(cog_http_url):
     return m
 
 ```
+
+## Acknowledgements
+
+This dashboard was developed in collaboration with the UBC Master of Data Science program during the final capstone project.
+
+Members of the team included Wesley Beard, Suryash Chakravarty, Harrison Li, and Joel Nicholas Peterson.
